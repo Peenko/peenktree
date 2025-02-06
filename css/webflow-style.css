@@ -2194,9 +2194,7 @@ body {
 .locked {
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 60px 10px;
   padding-left: 25px;
   padding-right: 25px;
   display: flex;
@@ -2258,7 +2256,7 @@ body {
   width: 150px;
   margin-top: 0;
   position: fixed;
-  bottom: 35%;
+  bottom: 37%;
   left: 50%;
   right: 0%;
   overflow: visible;
@@ -2361,6 +2359,10 @@ body {
 @media screen and (max-width: 479px) {
   .peenktree {
     transform: scale(.5)translate(0, -100px);
+  }
+
+  .image-9 {
+    width: 75px;
   }
 
   .pin1 {
